@@ -26,7 +26,7 @@ const StripeElement = ({ accountId }) => {
             return;
         }
 
-        const res = await fetch('http://localhost:4242/card_w_payment_intent', {
+        const res = await fetch('https://991c-2a09-bac5-3a67-20a-00-34-bb.ngrok-free.app/card_w_payment_intent', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
