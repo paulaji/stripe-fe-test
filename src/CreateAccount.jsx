@@ -9,7 +9,7 @@ const CreateAccount = () => {
         console.log("Submitting to backend");
 
         try {
-            const response = await fetch('http://localhost:4242/acc_creation_and_acc_link', {
+            const response = await fetch('https://991c-2a09-bac5-3a67-20a-00-34-bb.ngrok-free.app/acc_creation_and_acc_link', {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
