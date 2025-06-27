@@ -27,7 +27,7 @@ const PaymentIntentWBackend = ({ clientSecret }) => {
     const handleSubmit = async (e) => {
         e.preventDefault()
 
-        const clientSecretFetch = await fetch('http://localhost:4242/card_w_payment_intent');
+        const clientSecretFetch = await fetch('https://991c-2a09-bac5-3a67-20a-00-34-bb.ngrok-free.app/card_w_payment_intent');
         const clientSecretData = await clientSecretFetch.json();
         const clientSecret = await clientSecretData.client_secret;
         const paymentIntentID = await clientSecretData.payment_intent_id;
@@ -56,7 +56,7 @@ const PaymentIntentWBackend = ({ clientSecret }) => {
             }
         }
 
-        await fetch('http://localhost:4242/capture_the_payment', {
+        await fetch('https://991c-2a09-bac5-3a67-20a-00-34-bb.ngrok-free.app/capture_the_payment', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
