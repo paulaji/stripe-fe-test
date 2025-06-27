@@ -1,8 +1,4 @@
-import React from "react";
-import { useParams } from 'react-router-dom';
-
 export default function Return() {
-    const { connectedAccountId } = useParams();
 
     return (
         <div className="container">

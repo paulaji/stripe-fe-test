@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from 'react'
+import { useState } from 'react'
 import { loadStripe } from '@stripe/stripe-js';
 import {
     EmbeddedCheckoutProvider,

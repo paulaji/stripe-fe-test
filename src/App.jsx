@@ -1,4 +1,3 @@
-import React from "react";
 import Home from "./Home";
 import Refresh from "./Refresh";
 import Return from "./Return";

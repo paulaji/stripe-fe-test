@@ -1,8 +1,6 @@
 // StripeCheckoutTest.jsx
-import React from 'react';
 import { loadStripe } from '@stripe/stripe-js';
 import { Elements } from '@stripe/react-stripe-js';
-import StripeElement from './StripeElement';
 import PaymentIntentWBackend from './PaymentIntentWBackend';
 
 // The account id provided is paul@take1's

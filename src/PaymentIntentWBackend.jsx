@@ -1,9 +1,5 @@
-import React from 'react'
 import {
     useStripe, useElements, CardElement,
-    CardNumberElement,
-    CardExpiryElement,
-    CardCvcElement
 } from '@stripe/react-stripe-js'
 
 const CARD_ELEMENT_OPTIONS = {
